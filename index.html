@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <!-- Google Fonts for Cartoon Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Fredoka:wght@400;600&display=swap"
+        rel="stylesheet">
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Animation Elements -->
+    <div class="background-elements">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Main Content Container -->
+    <main class="container">
+        <!-- Fun Floating Icons -->
+        <div class="balloons-container">
+            <div class="balloon balloon-1">🎈</div>
+            <div class="balloon balloon-2">🍩</div>
+            <div class="balloon balloon-3">⚡</div>
+        </div>
+
+        <!-- Character & Speech Bubble Wrapper -->
+        <div class="cartoon-scene">
+            <div class="speech-bubble fade-in-up delay-1">
+                <p id="bubble-text">Hehehe 😆 <br> Happy Birthday <span class="highlight">Yoganta</span>!! 🎉</p>
+                <div class="bubble-arrow"></div>
+            </div>
+
+            <div class="character-wrapper slide-in-left">
+                <img id="shinchan-img" src="shinchan_wave.png" alt="Shinchan Waving" class="shinchan-img">
+            </div>
+        </div>
+
+        <!-- Birthday Greeting Text (Secondary) -->
+        <div class="greeting-content">
+            <p class="message fade-in-up delay-2">Time for mischief & cake! 🎂 <br> (Mostly cake...)</p>
+
+            <!-- Celebrate Button -->
+            <button id="celebrate-btn" class="celebrate-btn bounce delay-3">
+                Click for Surprise 🎁
+            </button>
+        </div>
+    </main>
+
+    <!-- Audio Element (Optional) -->
+    <!-- Note: Browsers often block auto-play, so we trigger this on button click -->
+    <audio id="birthday-tune" src="birthday.mp3"></audio>
+    <!-- Example Short Cheering/Tune -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
