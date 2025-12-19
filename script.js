@@ -1,5 +1,5 @@
 // --- CONFIGURATION ---
-const birthdayName = "Bestie";
+const birthdayName = "Yoganta";
 
 // --- ELEMENTS ---
 const nameElement = document.getElementById('birthday-name');
