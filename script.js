@@ -19,7 +19,7 @@ let currentImageIndex = 0;
 
 // Messages to cycle through (optional)
 const funnyMessages = [
-    "Hehehe 😆 <br> Happy Birthday <span class='highlight'>Bestie</span>!! 🎉",
+    "Hehehe 😆 <br> Happy Birthday <span class='highlight'>Yoganta</span>!! 🎉",
     " 🎂🎈Smile karti raho 😄<br>Masti karti raho 😜<br>Aur hamesha khush raho 💖✨",
     " 🍕Stay happy and healthy ❤️"
 ];
